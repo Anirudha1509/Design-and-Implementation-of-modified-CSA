@@ -78,12 +78,12 @@ Observation and Inference:<br><br>
 •	The Area and delay report for each design is as follows:<br><br>
 
 
-<img width="746" height="329" alt="image" src="https://github.com/user-attachments/assets/88c494c6-d360-4c1d-8684-55bacb095664" />
+<img width="746" height="329" alt="image" src="https://github.com/user-attachments/assets/88c494c6-d360-4c1d-8684-55bacb095664" /><br><br>
 Table 1: Area Report<br><br>
 
 •	Resource usage on Artix-7 FPGA is as follows:<br><br>
 
-<img width="907" height="350" alt="image" src="https://github.com/user-attachments/assets/6a930e84-fdc9-4f8f-ba3d-bb7d350ba0a9" />
+<img width="907" height="350" alt="image" src="https://github.com/user-attachments/assets/6a930e84-fdc9-4f8f-ba3d-bb7d350ba0a9" /><br><br>
 Table 2: Analysis of resource usage on Artix-7 FPGA<br><br>
 
 •	The Mux report (also called Macro reports), extracted from Xilinx ISE, post synthesis, is as follows:<br><br>
