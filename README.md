@@ -5,11 +5,11 @@ Aim: to design a high speed, low power VLSI architecture-based adder circuit.
 Problem Statement: The design of high-performance VLSI architectures demands efficient arithmetic units, particularly adders, which are critical for speed, power consumption, and area optimization. Conventional adder circuits, such as ripple carry adders and carry save adders, suffer from significant carry propagation delays, limiting their speed in high-performance applications like RISC processors, where single-cycle instruction execution is crucial. Additionally, power efficiency and area constraints further challenge the implementation of fast adders. Thus, there is a need to explore high-speed, low-power, and area-efficient adder architectures that minimize carry propagation delays while meeting the stringent requirements of modern processors and digital signal processing systems.
 
 Methodology: This project involves design of four different variants of a CSA, namely-
-•	Traditional CSA 
-•	Modified/proposed CSA with 4 bit - BEC unit
-•	Modified/proposed CSA with alternate MUX approach
-•	Generic CSA – customized version
-Each version will be discussed in the following sections.
+•	Traditional CSA <br><br>
+•	Modified/proposed CSA with 4 bit - BEC unit<br><br>
+•	Modified/proposed CSA with alternate MUX approach<br><br>
+•	Generic CSA – customized version<br><br>
+Each version will be discussed in the following sections.<br><br>
 
 Traditional Carry- Select Adder:
 •	A CSA divides the words to be added into two blocks; hence two sums are calculated in parallel.
@@ -21,12 +21,12 @@ Traditional Carry- Select Adder:
 •	Each stage has a varying input sizes i.e, 2,3,4,5 bits.
 •	The RCA are also designed according to the inputs.
 
- <img width="978" height="477" alt="Screenshot 2025-07-26 145157" src="https://github.com/user-attachments/assets/93fa9bc0-7f6c-4104-b13f-131247e02938" />
+ <img width="978" height="477" alt="Screenshot 2025-07-26 145157" src="https://github.com/user-attachments/assets/93fa9bc0-7f6c-4104-b13f-131247e02938" /><br><br>
 Fig1: A traditional CSA with fixed input size <br><br>
 
 
-<img width="1347" height="489" alt="Screenshot 2025-07-26 145302" src="https://github.com/user-attachments/assets/2e272091-8156-4766-8f48-fa2359e2f590" />
-Fig2: A traditional CSA with varying input size
+<img width="1347" height="489" alt="Screenshot 2025-07-26 145302" src="https://github.com/user-attachments/assets/2e272091-8156-4766-8f48-fa2359e2f590" /><br><br>
+Fig2: A traditional CSA with varying input size<br><br>
 
 
 Modified/proposed CSA with 4 bit - BEC unit:
