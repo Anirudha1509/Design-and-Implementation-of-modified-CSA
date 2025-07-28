@@ -21,11 +21,11 @@ Traditional Carry- Select Adder:
 •	Each stage has a varying input sizes i.e, 2,3,4,5 bits.<br><br>
 •	The RCA are also designed according to the inputs.<br><br>
 
- <img width="978" height="477" alt="Screenshot 2025-07-26 145157" src="https://github.com/user-attachments/assets/93fa9bc0-7f6c-4104-b13f-131247e02938" /><br><br>
+ <img width="978" height="477" alt="Screenshot 2025-07-26 145157" src="https://github.com/user-attachments/assets/93fa9bc0-7f6c-4104-b13f-131247e02938" />
 Fig1: A traditional CSA with fixed input size <br><br>
 
 
-<img width="1347" height="489" alt="Screenshot 2025-07-26 145302" src="https://github.com/user-attachments/assets/2e272091-8156-4766-8f48-fa2359e2f590" /><br><br>
+<img width="1347" height="489" alt="Screenshot 2025-07-26 145302" src="https://github.com/user-attachments/assets/2e272091-8156-4766-8f48-fa2359e2f590" />
 Fig2: A traditional CSA with varying input size<br><br>
 
 
@@ -39,7 +39,7 @@ iii.	X2 = B2^(B0&B1)
 iv.	X3 = B3^(B0&B1&B2)<br><br>
 •	Logic diagram of the same is as follows:<br><br>
 
-<img width="958" height="668" alt="Screenshot 2025-07-26 153139" src="https://github.com/user-attachments/assets/fdab2af6-0aab-462c-a7a8-1029407983fd" /><br><br>
+<img width="958" height="668" alt="Screenshot 2025-07-26 153139" src="https://github.com/user-attachments/assets/fdab2af6-0aab-462c-a7a8-1029407983fd" />
 Fig3: A 4-bit BEC<br><br>
 
 
@@ -50,7 +50,7 @@ Modified/proposed CSA with alternate MUX approach:
 •	By adapting this architecture, grouping of carry and sum, which are provided as inputs in former approaches can be avoided hence speeding up calculations.<br><br>
 
 
-<img width="1368" height="505" alt="Screenshot 2025-07-26 154055" src="https://github.com/user-attachments/assets/7fbd8fba-f149-4b93-b684-7cf220eedc56" /><br><br>
+<img width="1368" height="505" alt="Screenshot 2025-07-26 154055" src="https://github.com/user-attachments/assets/7fbd8fba-f149-4b93-b684-7cf220eedc56" />
 Fig4: Modified CSA architecture with alternate MUX approach<br><br>
 
 
@@ -60,17 +60,17 @@ Generic CSA – customized version:
 •	An efficient, customizable way where it can be used in applications involving varying input bit lengths.<br><br>
 Results and Discussion:<br><br>
 
-<img width="1864" height="292" alt="Screenshot 2025-07-26 202901" src="https://github.com/user-attachments/assets/09573222-fa9b-4c83-980d-e7cf1ec80d01" /><br><br>
+<img width="1864" height="292" alt="Screenshot 2025-07-26 202901" src="https://github.com/user-attachments/assets/09573222-fa9b-4c83-980d-e7cf1ec80d01" />
 Fig5: Traditional CSA architecture waveforms<br><br>
 
-<img width="1863" height="381" alt="Screenshot 2025-07-26 203253" src="https://github.com/user-attachments/assets/0e520abe-762a-4432-998b-e5c42bda7a38" /><br><br>
+<img width="1863" height="381" alt="Screenshot 2025-07-26 203253" src="https://github.com/user-attachments/assets/0e520abe-762a-4432-998b-e5c42bda7a38" />
 Fig6: proposed CSA with 4-bit BEC waveforms<br><br>
 
 
-<img width="1869" height="286" alt="Screenshot 2025-07-26 203730" src="https://github.com/user-attachments/assets/34964f4a-5c86-44eb-b8b2-4cf4e2e8b466" /><br><br>
+<img width="1869" height="286" alt="Screenshot 2025-07-26 203730" src="https://github.com/user-attachments/assets/34964f4a-5c86-44eb-b8b2-4cf4e2e8b466" />
 Fig7: proposed CSA with alternate Mux approach waveforms<br><br>
 
-<img width="1867" height="325" alt="Screenshot 2025-07-26 222011" src="https://github.com/user-attachments/assets/246aba97-8346-4935-850b-f8523130f08c" /><br><br>
+<img width="1867" height="325" alt="Screenshot 2025-07-26 222011" src="https://github.com/user-attachments/assets/246aba97-8346-4935-850b-f8523130f08c" />
 Fig7: proposed generic CSA with N=256 waveforms<br><br>
 
 
@@ -78,26 +78,26 @@ Observation and Inference:
 •	The Area and delay report for each design is as follows:<br><br>
 
 
-<img width="746" height="329" alt="image" src="https://github.com/user-attachments/assets/88c494c6-d360-4c1d-8684-55bacb095664" /><br><br>
+<img width="746" height="329" alt="image" src="https://github.com/user-attachments/assets/88c494c6-d360-4c1d-8684-55bacb095664" />
 Table 1: Area Report<br><br>
 
 •	Resource usage on Artix-7 FPGA is as follows:<br><br>
 
-<img width="907" height="350" alt="image" src="https://github.com/user-attachments/assets/6a930e84-fdc9-4f8f-ba3d-bb7d350ba0a9" /><br><br>
+<img width="907" height="350" alt="image" src="https://github.com/user-attachments/assets/6a930e84-fdc9-4f8f-ba3d-bb7d350ba0a9" />
 Table 2: Analysis of resource usage on Artix-7 FPGA<br><br>
 
 •	The Mux report (also called Macro reports), extracted from Xilinx ISE, post synthesis, is as follows:<br><br>
 1.	Traditional CSA:<br><br>
-<img width="1920" height="964" alt="Macro_report-regular_csa" src="https://github.com/user-attachments/assets/57325f52-c634-463d-8408-3757216cd5f8" /><br><br>
+<img width="1920" height="964" alt="Macro_report-regular_csa" src="https://github.com/user-attachments/assets/57325f52-c634-463d-8408-3757216cd5f8" />
 
 2.	Modified/proposed CSA with 4 bit - BEC unit:<br><br>
-<img width="1920" height="964" alt="Macro_report-proposed_csa_a" src="https://github.com/user-attachments/assets/38a41c18-0dc7-4354-9ce5-5d8f5371f329" /><br><br>
+<img width="1920" height="964" alt="Macro_report-proposed_csa_a" src="https://github.com/user-attachments/assets/38a41c18-0dc7-4354-9ce5-5d8f5371f329" />
 
 3.	Modified/proposed CSA with alternate MUX approach:<br><br>
-<img width="1920" height="964" alt="Macro_report-proposed_csa_b" src="https://github.com/user-attachments/assets/7b6e98e2-c0c1-46e7-bf15-8e6bfdea5729" /><br><br>
+<img width="1920" height="964" alt="Macro_report-proposed_csa_b" src="https://github.com/user-attachments/assets/7b6e98e2-c0c1-46e7-bf15-8e6bfdea5729" />
 
 4.	Generic CSA – customized version with N = 256:<br><br>
-<img width="1920" height="964" alt="Macro_report-proposed_csa_customized" src="https://github.com/user-attachments/assets/7575ee3f-c297-4e53-809b-e8d089788505" /><br><br>
+<img width="1920" height="964" alt="Macro_report-proposed_csa_customized" src="https://github.com/user-attachments/assets/7575ee3f-c297-4e53-809b-e8d089788505" />
 
 
 •	Conclusion:<br><br>
