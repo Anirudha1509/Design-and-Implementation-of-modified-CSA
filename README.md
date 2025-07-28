@@ -39,8 +39,8 @@ iii.	X2 = B2^(B0&B1)
 iv.	X3 = B3^(B0&B1&B2)<br><br>
 •	Logic diagram of the same is as follows:<br><br>
 
-<img width="958" height="668" alt="Screenshot 2025-07-26 153139" src="https://github.com/user-attachments/assets/fdab2af6-0aab-462c-a7a8-1029407983fd" />
-     Fig3: A 4-bit BEC<br><br>
+<img width="958" height="668" alt="Screenshot 2025-07-26 153139" src="https://github.com/user-attachments/assets/fdab2af6-0aab-462c-a7a8-1029407983fd" /><br><br>
+Fig3: A 4-bit BEC<br><br>
 
 
 
