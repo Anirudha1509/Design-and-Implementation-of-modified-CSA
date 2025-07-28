@@ -1,6 +1,4 @@
-# Design-and-Implementation-of-modified-CSA
-Design and Implementation of Modified Carry-Select Adder and its Performance Analysis
-
+# Design and Implementation of Modified Carry-Select Adder and its Performance Analysis
 
 Aim: to design a high speed, low power VLSI architecture-based adder circuit.
 
