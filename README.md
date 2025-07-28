@@ -11,7 +11,7 @@ Methodology: This project involves design of four different variants of a CSA, n
 •	Generic CSA – customized version<br><br>
 Each version will be discussed in the following sections.<br><br>
 
-Traditional Carry- Select Adder:
+Traditional Carry- Select Adder:<br><br>
 •	A CSA divides the words to be added into two blocks; hence two sums are calculated in parallel.<br><br>
 •	The first block calculates the sum, assuming that carry-in(cin) = 0.<br><br>
 •	The second block calculates the sum, assuming that carry-in(cin) = 1.<br><br>
@@ -29,7 +29,7 @@ Fig1: A traditional CSA with fixed input size <br><br>
 Fig2: A traditional CSA with varying input size<br><br>
 
 
-Modified/proposed CSA with 4 bit - BEC unit:
+Modified/proposed CSA with 4 bit - BEC unit:<br><br>
 •	BEC refers to a Binary to Excess-One converter.<br><br>
 •	In this approach of designing the CSA, the BEC unit is replaced in place of RCA, in the traditional architecture, which works on cin = 1’b1. <br><br>
 •	The Boolean expressions for a 4-bit BEC are stated as:
@@ -44,7 +44,7 @@ Fig3: A 4-bit BEC<br><br>
 
 
 
-Modified/proposed CSA with alternate MUX approach:
+Modified/proposed CSA with alternate MUX approach:<br><br>
 •	This approach involves designing separate Multiplexers which operate on carry-out and sums of the two RCAs respectively.<br><br>
 •	Select line, however remains the same foe both 2:1 Muxes, ie, the carry out of the preceding Mux.<br><br>
 •	By adapting this architecture, grouping of carry and sum, which are provided as inputs in former approaches can be avoided hence speeding up calculations.<br><br>
@@ -54,7 +54,7 @@ Modified/proposed CSA with alternate MUX approach:
 Fig4: Modified CSA architecture with alternate MUX approach<br><br>
 
 
-Generic CSA – customized version:
+Generic CSA – customized version:<br><br>
 •	This is a customized version of CSA, where 16,32,64,128,256… bit input can be given.<br><br>
 •	It involves usage of generate statement in coding the hardware, in Verilog.<br><br>
 •	An efficient, customizable way where it can be used in applications involving varying input bit lengths.<br><br>
@@ -74,7 +74,7 @@ Fig7: proposed CSA with alternate Mux approach waveforms<br><br>
 Fig7: proposed generic CSA with N=256 waveforms<br><br>
 
 
-Observation and Inference:
+Observation and Inference:<br><br>
 •	The Area and delay report for each design is as follows:<br><br>
 
 
