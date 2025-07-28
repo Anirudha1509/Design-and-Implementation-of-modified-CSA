@@ -4,7 +4,7 @@ Aim: to design a high speed, low power VLSI architecture-based adder circuit.
 
 Problem Statement: The design of high-performance VLSI architectures demands efficient arithmetic units, particularly adders, which are critical for speed, power consumption, and area optimization. Conventional adder circuits, such as ripple carry adders and carry save adders, suffer from significant carry propagation delays, limiting their speed in high-performance applications like RISC processors, where single-cycle instruction execution is crucial. Additionally, power efficiency and area constraints further challenge the implementation of fast adders. Thus, there is a need to explore high-speed, low-power, and area-efficient adder architectures that minimize carry propagation delays while meeting the stringent requirements of modern processors and digital signal processing systems.
 
-Methodology: This project involves design of four different variants of a CSA, namely-
+Methodology: This project involves design of four different variants of a CSA, namely-<br><br>
 •	Traditional CSA <br><br>
 •	Modified/proposed CSA with 4 bit - BEC unit<br><br>
 •	Modified/proposed CSA with alternate MUX approach<br><br>
