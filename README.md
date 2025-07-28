@@ -22,7 +22,7 @@ Traditional Carry- Select Adder:
 •	The RCA are also designed according to the inputs.
 
  <img width="978" height="477" alt="Screenshot 2025-07-26 145157" src="https://github.com/user-attachments/assets/93fa9bc0-7f6c-4104-b13f-131247e02938" />
-Fig1: A traditional CSA with fixed input size <br>
+Fig1: A traditional CSA with fixed input size <br><br>
 
 
 <img width="1347" height="489" alt="Screenshot 2025-07-26 145302" src="https://github.com/user-attachments/assets/2e272091-8156-4766-8f48-fa2359e2f590" />
